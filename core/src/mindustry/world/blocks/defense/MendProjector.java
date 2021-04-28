@@ -61,6 +61,13 @@ public class MendProjector extends Block{
         stats.add(BlockStat.boostEffect, phaseRangeBoost / tilesize, StatUnit.blocks);
         stats.add(BlockStat.boostEffect, (phaseBoost + healPercent) / healPercent, StatUnit.timesSpeed);
     }
+    
+    @Override
+    public void setBars(){
+        super.setBars()
+
+        bars.add("charge", entity -> new Bar("bar.charge", Pal.heal, entity.charge / reload))
+    }
 
     @Override
     public void update(Tile tile){
