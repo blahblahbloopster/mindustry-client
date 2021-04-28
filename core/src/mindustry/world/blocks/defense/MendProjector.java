@@ -64,9 +64,9 @@ public class MendProjector extends Block{
     
     @Override
     public void setBars(){
-        super.setBars()
+        super.setBars();
 
-        bars.add("charge", entity -> new Bar("bar.charge", Pal.heal, entity.charge / reload))
+        bars.add("charge", entity -> new Bar("bar.charge", Pal.heal, entity.charge / reload));
     }
 
     @Override
