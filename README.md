@@ -3,7 +3,7 @@
 ![Logo](core/assets-raw/sprites/ui/logo.png)
 
 ![Java CI](https://github.com/blahblahbloopster/mindustry-client/workflows/Java%20CI/badge.svg?branch=custom_client)
-[![Discord](https://img.shields.io/discord/741710208501547161.svg)](https://discord.gg/rdv3sBW)
+[![Discord](https://img.shields.io/discord/741710208501547161.svg)](https://discord.gg/yp9ZW7j)
 
 Hi!  I'm blahblahbloopster (aka foo), and this is my fork of Anuke's mindustry.  I've added some handy features such as automated bombing, auto-mine, and auto-build.
 
